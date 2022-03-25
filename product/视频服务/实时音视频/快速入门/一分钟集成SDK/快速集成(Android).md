@@ -113,6 +113,7 @@ defaultConfig {
 
 ```
 -keep class com.tencent.** { *; }
+-keep class org.chromium.base.liteav.** { *; }
 ```
 ## 设置 App 打包参数
 在 app/build.gradle 下，添加如下信息：
